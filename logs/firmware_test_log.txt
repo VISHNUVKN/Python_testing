@@ -1,0 +1,27 @@
+2025-07-23 16:05:33 [INFO] Connecting to COM18 at 9600 baud...
+
+===  Test Cycle 1 of 3 ===
+2025-07-23 16:05:33 [INFO] Waiting for firmware information...
+2025-07-23 16:05:34 [INFO] Received: === VishnuFirm ===
+2025-07-23 16:05:34 [INFO] Received: Version: 1.0.0
+2025-07-23 16:05:34 [INFO]  Firmware name and version verified.
+2025-07-23 16:05:34 [INFO]  Monitoring LED blinking (5 toggles)...
+2025-07-23 16:05:39 [INFO]  LED blink verified. Average interval: 1.00 seconds
+
+===  Test Cycle 2 of 3 ===
+2025-07-23 16:05:41 [INFO] Waiting for firmware information...
+2025-07-23 16:05:42 [INFO] Received: === VishnuFirm ===
+2025-07-23 16:05:42 [INFO] Received: Version: 1.0.0
+2025-07-23 16:05:42 [INFO]  Firmware name and version verified.
+2025-07-23 16:05:42 [INFO]  Monitoring LED blinking (5 toggles)...
+2025-07-23 16:05:47 [INFO]  LED blink verified. Average interval: 1.01 seconds
+
+===  Test Cycle 3 of 3 ===
+2025-07-23 16:05:49 [INFO] Waiting for firmware information...
+2025-07-23 16:05:50 [INFO] Received: === VishnuFirm ===
+2025-07-23 16:05:50 [INFO] Received: Version: 1.0.0
+2025-07-23 16:05:50 [INFO]  Firmware name and version verified.
+2025-07-23 16:05:50 [INFO]  Monitoring LED blinking (5 toggles)...
+2025-07-23 16:05:55 [INFO]  LED blink verified. Average interval: 1.02 seconds
+
+2025-07-23 16:05:55 [INFO]  All test cycles completed.
