@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Arduino Log Summary</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 2em;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    h1, h2 {
+      color: #004080;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border: 1px solid #aaa;
+      margin-bottom: 1em;
+    }
+    .file-section {
+      background-color: #ffffff;
+      padding: 1em;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+      margin-bottom: 2em;
+    }
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Arduino Test Logs and Summary</h1>
+
+  <div class="file-section">
+    <h2>Screenshot</h2>
+    <img src="ss.jpg" alt="Arduino Test Screenshot"/>
+  </div>
+
+  <div class="file-section">
+    <h2>Boot Log Summary</h2>
+    <p>
+      The Arduino was successfully booted three times on COM18 at 57600 baud. Each cycle returned a matching 504-bit binary signature, verifying the boot process.
+    </p>
+    <a href="arduino_boot_log_3_cycles.txt" download>Download Boot Log</a>
+  </div>
+
+  <div class="file-section">
+    <h2>Control Log Summary</h2>
+    <p>
+      The Arduino pin 13 was toggled ON and OFF across three cycles. Each ON-OFF sequence lasted 2 seconds, confirming basic command-response functionality.
+    </p>
+    <a href="arduino_control_log.txt" download>Download Control Log</a>
+  </div>
+
+  <div class="file-section">
+    <h2>Firmware Test Log Summary</h2>
+    <p>
+      The firmware "VishnuFirm" (version 1.0.0) was verified during three test cycles. In each cycle, the LED blinked 5 times with an average interval of ~1 second, demonstrating consistent timing and correct firmware behavior.
+    </p>
+    <a href="firmware_test_log.txt" download>Download Firmware Test Log</a>
+  </div>
+
+</body>
+</html>
